@@ -1,0 +1,259 @@
+/*
+=======================
+Header
+to use the roboto typeface:
+font-family: 'Roboto', sans-serif;
+======================
+*/
+
+*, *:before, *:after{
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+	         	box-sizing: border-box;
+}
+nav.primary-navbar ul{
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+
+
+.container{
+	margin: 0 auto;
+	width: 1100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.primary-navbar ul li{
+  padding: 5px 25px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.lastItem input{
+  position: relative;
+  background-color: #808080;
+  border-style: none;
+  width: 75%;
+  line-height: 1.5;
+  padding-left: 1.75em;
+  border-radius: 10px;
+  color: #fff;
+  margin:0;
+}
+
+  .priamry-navbar .lastItem{
+    position: relative;
+    padding:0;
+    margin:0;
+    }
+
+.searchBottom{
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 0.5em;
+}
+
+.primary-navbar{
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  top: 10%;
+  width: 66%;
+  left: 15%;
+  border-radius: 2px;
+  background: rgba(76,76,76,1);
+  background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+}
+
+
+
+.primary-navbar ul a li{
+  font-size: 15px;
+  text-decoration: none;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.primary-navbar li:hover{
+  background-color: #000;
+  cursor: pointer;
+}
+
+li.lastItem:hover{
+  background-color: rgba(255, 254, 34, 0);
+  cursor:default;
+}
+
+
+.apple-button{
+  font-size: 20px;
+  color: #d9d9d9;
+}
+
+/*
+========================
+Main Section
+=======================
+*/
+h2,h3{
+  display: none;
+}
+
+.mainImage{
+  position: relative;
+  width: 100%;
+  height: 530px;
+  margin: 0 auto;
+  background-position: bottom center;
+  background-image: url("../images/mainImage.jpg");
+}
+
+.whatVerse{
+  cursor: pointer;
+  height: 100px;
+  width: 620px;
+  background-repeat: no-repeat;
+  background-position: 50% 4%;
+  position: absolute;
+  top: 150px;
+  left: 360px;
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small.png");
+}
+
+.everyoneHas{
+  cursor: pointer;
+  height: 100px;
+  width: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 250px;
+  left: 280px;
+  background-image: url("https://web.archive.org/web/20140301004340im_/http://images.apple.com/home/images/your_verse_subhead_small.png");
+}
+
+.watchStories{
+  position: absolute;
+  top: 380px;
+  left: 400px;
+}
+
+.watchStories a{
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.watchStories a i{
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align:middle;
+}
+
+.watchStories a:hover{
+  text-decoration: underline;
+}
+
+/*
+=======================
+Minor Background images
+=======================
+*/
+.belowGrid{
+  margin: 0 auto;
+	width: 100%;
+}
+
+
+
+.inline-block{
+  display: inline-block;
+}
+
+.belowGrid div{
+  width: 24.28%;
+  height: 200px;
+  margin-top: 0.25em;
+  background-repeat: no-repeat;
+}
+
+
+.firstIphone{
+  background-image: url("../images/iphone1.jpg");
+  margin-right: 0.8em;
+}
+
+.secondIphone{
+  background-image: url("../images/iphone2.jpg");
+  margin-right: 0.8em;
+}
+
+.thirdIphone{
+  margin-right: 0.8em;
+  background-image: url("../images/iphone3.jpg");
+}
+
+.fourthIphone{
+  background-image: url("../images/iphone4.jpg");
+  margin-right: 0;
+}
+
+/*
+======================
+footer
+======================
+*/
+footer p{
+  font-size: 9px;
+  line-height: 13px;
+  word-spacing: 3px;
+
+
+}
+
+footer p a{
+  text-decoration: none;
+  color: #0000ff;
+  word-spacing: 3px;
+}
+
+footer p a:hover{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+footer.container{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+footer p img{
+  vertical-align: bottom;
+}
+footer .right-most{
+  margin-left: 3em;
+  margin-right: 12em;
+}
+.finalText{
+  margin-left: 3em;
+  margin-top: 1%;
+}
