@@ -18,7 +18,7 @@ body{
 
 
 
-nav a, nav div{
+nav a, .primary-navbar div{
   -webkit-flex-grow: 2;
 	   -moz-flex-grow:2;
 		 		  flex-grow:2;
@@ -30,7 +30,7 @@ nav a, nav div{
 .primary-navbar div{
 	position: relative;
 }
-.primary-navbar div .searchBottom{
+.primary-navbar div i{
 		font-size: 0.8em;
 		position: absolute;
 		z-index: 2;
@@ -148,6 +148,23 @@ h2,h3{
 	background-image: url("https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png");
 }
 
+.watchStories a{
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.watchStories a i{
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align:middle;
+}
+
+.watchStories a:hover{
+  text-decoration: underline;
+}
 
 /*
 =======================
