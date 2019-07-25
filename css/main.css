@@ -137,9 +137,15 @@ h2,h3{
 }
 
 .watchStories{
-  position: absolute;
-  top: 380px;
-  left: 400px;
+	cursor: pointer;
+	height: 30px;
+	width: 550px;
+	background-repeat: no-repeat;
+	background-position: top;
+	position: absolute;
+	top: 380px;
+	left: 380px;
+	background-image: url("https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png");
 }
 
 .watchStories a{
