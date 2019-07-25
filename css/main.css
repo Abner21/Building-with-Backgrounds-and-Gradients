@@ -18,7 +18,7 @@ body{
 
 
 
-nav a, nav .lastItem{
+nav a, .primary-navbar div{
   -webkit-flex-grow: 2;
 	   -moz-flex-grow:2;
 		 		  flex-grow:2;
@@ -27,10 +27,10 @@ nav a, nav .lastItem{
 					height: 100%;
 	color: #fff;
 }
-.lastItem{
+.primary-navbar div{
 	position: relative;
 }
-.lastItem i{
+.primary-navbar div i{
 		font-size: 0.8em;
 		position: absolute;
 		z-index: 2;
@@ -39,11 +39,11 @@ nav a, nav .lastItem{
 		left: 2.5em;
 }
 
-.primary-navbar div.lastItem input:focus {
+.primary-navbar div input:focus {
 	background-color: #fff;
 }
 
-.primary-navbar div.lastItem input{
+.primary-navbar div input{
 	border-radius: 5px;
 	font-size: 0.8em;
 	height: 80%;
