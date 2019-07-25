@@ -16,11 +16,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-.container{
-	margin: 0 auto;
-	width: 1100px;
-  font-family: 'Roboto', sans-serif;
-}
+
 
 nav a, nav .lastItem{
   -webkit-flex-grow: 2;
@@ -217,38 +213,46 @@ Minor Background images
 footer
 ======================
 */
-footer p{
-  font-size: 9px;
-  line-height: 13px;
-  word-spacing: 3px;
-
-
+.group:before,
+.group:after{
+  content: "";
+  display: table;
 }
 
-footer p a{
-  text-decoration: none;
-  color: #0000ff;
-  word-spacing: 3px;
+.group:after{
+  clear: both;
 }
 
-footer p a:hover{
-  color: #0000ff;
-  text-decoration: underline;
+.group{
+  clear: both;
+  *zoom: 1;
 }
 
-footer.container{
-  margin-top: 1%;
-  margin-bottom: 2%;
+footer .left-most li{
+	display: inline;
+	list-style: none;
+	font-size: 10px;
+	float: left;
+	margin-top: 2em;
+	padding-left: 0.7em;
+}
+.left-most li a{
+	color: #0066ff;
 }
 
-footer p img{
-  vertical-align: bottom;
+.left-most li a img{
+	vertical-align:top;
+	height: 14px;
 }
-footer .right-most{
-  margin-left: 3em;
-  margin-right: 12em;
+
+.left-most .firstLi{
+	margin-left: 4em;
+}
+
+.container{
+	margin: 0 auto;
+	width: 70%;
 }
 .finalText{
-  margin-left: 3em;
-  margin-top: 1%;
+	margin-bottom: 2em;
 }
